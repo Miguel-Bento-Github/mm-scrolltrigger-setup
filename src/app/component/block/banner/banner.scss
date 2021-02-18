@@ -1,0 +1,9 @@
+[data-component="banner"] {
+  padding: 20vh 0;
+
+  .visual {
+    @include aspect-ratio(4, 3);
+    user-select: none;
+    pointer-events: none;
+  }
+}
