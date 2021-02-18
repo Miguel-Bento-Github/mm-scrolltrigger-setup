@@ -11,3 +11,5 @@ $zLayout: default;
 $colorPrimaryTheme: #ff6e3f;
 
 @import "../../data/shared-variable/media-queries.json";
+
+$gridGrap: clamp(20px, calc(1.25rem + ((1vw - 3.75px) * 1.2945)), 40px);
