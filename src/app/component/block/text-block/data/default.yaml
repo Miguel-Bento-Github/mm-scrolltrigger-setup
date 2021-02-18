@@ -1,0 +1,27 @@
+heading:
+  type: h1
+  copy: Hello World!
+
+visuals:
+  -  src: 'media/food-1.jpg'
+     alt: 'description of image required'
+  -  src: 'media/food-2.jpg'
+     alt: 'description of image required'
+  -  src: 'media/food-3.jpg'
+     alt: 'description of image required'
+
+text:
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aut beatae corporis culpa
+  cupiditate delectus deserunt dolore earum eligendi et ex explicabo incidunt inventore ipsum
+  laborum libero magni minus neque non obcaecati pariatur porro quam quas rem sapiente veniam,
+  vitae! Dolorum, recusandae, sunt. Animi aperiam at aut autem consequuntur doloremque dolores
+  doloribus eum excepturi exercitationem fugit, id, incidunt ipsam laborum nisi pariatur perferendis
+  perspiciatis possimus qui quis quod repellat reprehenderit repudiandae, sapiente sunt tempore
+  vitae. Cupiditate dolorem enim explicabo ipsum, laborum molestiae, nam odio optio praesentium quam
+  quis soluta sunt. A aliquam commodi, inventore ipsum libero optio quis unde.
+
+cta:
+  href: '#'
+  title: Read more about Hello World
+  copy: Read more
+

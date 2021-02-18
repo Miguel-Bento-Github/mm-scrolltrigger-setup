@@ -7,4 +7,5 @@ meta:
   category: '' # to group pages in the overview
 
 blocks:
-
+  - name: text-block
+    data: import!../app/component/block/text-block/data/default

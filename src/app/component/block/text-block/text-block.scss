@@ -1,0 +1,14 @@
+[data-component="text-block"] {
+  padding: 20vh 10vw;
+
+  .visuals-overview-list {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    grid-gap: $gridGrap;
+  }
+
+  .visual {
+    max-width: 640px;
+    @include aspect-ratio(4, 3);
+  }
+}
