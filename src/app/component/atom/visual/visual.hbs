@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="./visual.scss">
+
+<div class="visual{{#if className}} {{className}}{{/if}}" {{{props}}} data-component="visual">
+  <picture>
+    {{#each source ~}}
+      <source srcset="{{srcset}}"
+        {{#if media}} media="{{media}}"{{/if}}
+        {{#if type}} type="{{type}}"{{/if}}>
+    {{/each}}
+    <img src="{{src}}" alt="{{alt}}" />
+  </picture>
+</div>
