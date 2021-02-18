@@ -2,14 +2,14 @@
 <script src="./TextBlock.ts"></script>
 
 <div data-component="text-block">
-  {{> atom/heading heading className='heading-1' }}
+  {{> atom/heading heading className='heading-1' props='data-transition-item' }}
   <ul class="visuals-overview-list">
     {{#each visuals}}
     <li>
-      {{> atom/visual this }}
+      {{> atom/visual this props='data-transition-item' }}
     </li>
     {{/each}}
   </ul>
-  {{> atom/text text }}
-  {{> atom/cta cta }}
+  {{> atom/text text props='data-transition-item' }}
+  {{> atom/cta cta  props='data-transition-item' }}
 </div>
