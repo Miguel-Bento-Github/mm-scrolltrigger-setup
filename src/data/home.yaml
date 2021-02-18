@@ -9,3 +9,6 @@ meta:
 blocks:
   - name: text-block
     data: import!../app/component/block/text-block/data/default
+
+  - name: banner
+    data: import!../app/component/block/banner/data/default
